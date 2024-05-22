@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Tarbiyatul Huda Web</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- My CSS Responsive -->
+    <link rel="stylesheet" href="responesive.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+
+    <!-- Font Awesome / Icons -->
+    <link rel="stylesheet" href="assets/FontAwesome/css/fontawesome.min.css">
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-ico">
+
+    <!-- Icon FavIcon -->
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-ico">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- Question Box -->
+    <div class="quest">
+        <a href="#topbar" class="button-start">Buka Website</a>
+    </div>
+    <!-- Akhir Question Box -->
+
+    <!-- Bagian TopBar -->
+    <section id="topbar">
+        <div class="topbar container">
+            <div class="row">
+                <div class="col-md-9">
+                    <ul class="top-contact-info">
+                        <li><a target="_blank"
+                                href="https://api.whatsapp.com/send/?phone=6285776185053&text&type=phone_number&app_absent=0"><i
+                                    class="bi bi-whatsapp"></i>+62 857-7618-5053</a></li>
+                        <li><a href="https://www.instagram.com/info_tarhud/"><i
+                                    class="bi bi-envelope-at"></i>smktarhud@gmail.com</a></li>
+                        <li><a
+                                href="https://api.whatsapp.com/send/?phone=6285776185053&text&type=phone_number&app_absent=0"><i
+                                    class="bi bi-megaphone"></i>PPDB TA 2024/2025 Akan Di Buka</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="sosmed-info">
+                        <li><a id="maaf" href="#"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/info_tarhud/" target="_blank"><i
+                                    class="bi bi-instagram"></i></a></li>
+                        <li><a id="maaf" href="#"><i class="bi bi-tiktok"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100069641418435" target="_blank"><i
+                                    class="bi bi-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir TopBar -->
+
+    <!-- Bagian Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="brand">
+                        <img src="images/Logo.png" alt="Logo SMK Tarbiyatul Huda" title="Logo Tarhud">
+                        <div class="brand-name">
+                            <h1>SMK Tarbiyatul Huda</h1>
+                            <h3>Sekolah Pencetak Generasi Berakhlak dan Berprestasi</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 searchBox-wrapper">
+                    <div class="ms-auto searchBox">
+                        <form method="get">
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="cari" placeholder="Cari sesuatu..."
+                                    aria-label="Tombol Cari" aria-describedby="tombol-cari">
+                                <div class="input-group-append">
+                                    <button id="maaf" class="btn btn-outline-success input-group-text" id="tombol-cari">
+                                        Cari
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bagian  Akhir Header -->
+
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-lg bg-nav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link aktif" href="#topbar">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#profil" class="dropbtn nav-link dropdown-toggle">Profil</a>
+                        <ul class="dropdown-content">
+                            <a id="maaf" href="#">Sejarah</a>
+                            <a id="maaf" href="#">Visi dan Misi</a>
+                            <a id="maaf" href="#">Peta Sekolah</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#prestasi" class="dropbtn nav-link dropdown-toggle">Pretasi</a>
+                        <ul class="dropdown-content">
+                            <a href="#pramuka">Pramuka</a>
+                            <a href="#futsal">Futsal</a>
+                            <a href="#paskibra">Paskibra</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#galeri" class="dropbtn nav-link dropdown-toggle">Galeri</a>
+                        <ul class="dropdown-content">
+                            <a href="#galeriPramuka">Pramuka</a>
+                            <a id="maaf" href="#">Futsal</a>
+                            <a href="#galeriPaskibra">Paskibra</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#ekstrakulikuler" class="dropbtn nav-link dropdown-toggle">Ekstra</a>
+                        <ul class="dropdown-content">
+                            <a href="#eksPaskibra">Paskibra</a>
+                            <a href="#eksDrumband">Drumband</a>
+                            <a href="#eksPramuka">Pramuka</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#berita" class="dropbtn nav-link dropdown-toggle">Berita</a>
+                        <ul class="dropdown-content">
+                            <a id="maaf" href="#">Kegiatan</a>
+                            <a id="maaf" href="#">Infrastuktur</a>
+                            <a id="maaf" href="#">Pembelajaran</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#kontak" class="nav-link">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Bagian Akhir Navbar -->
+
+    <!-- Bagian Hero -->
+    <section id="hero">
+        <div id="slider-hero-nav"></div>
+        <div class="owl-carousel" id="slider-hero">
+            <div class="slider-item"> <!-- slider 1 -->
+                <div class="slider-item-img">
+                    <picture>
+                        <!-- Media query untuk layar dengan lebar maksimum 576px -->
+                        <source srcset="images/sliderv1.png" media="(max-width: 576px)">
+                        <img src="images/Bg-main.jpg" alt="Deskripsi gambar">
+                    </picture>
+                </div>
+                <div class="slider-item-content">
+                    <h2>Penerimaan Peserta Didik Baru TA 2024/2025 Telah Dibuka!</h2>
+                    <p>Jangan lewatkan kesempatan untuk meraih impianmu dengan belajar di SMK Tarbiyatul Huda.
+                    </p>
+                    <button type="button" class="btn btn-success btn-utama"><a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=6285776185053&text&type=phone_number&app_absent=0">Daftar
+                            PPDB </a></button>
+                </div>
+            </div> <!--akhir slider 1 -->
+            <div class="slider-item"> <!-- slider 2 -->
+                <div class="slider-item-img">
+                    <picture>
+                        <!-- Media query untuk layar dengan lebar maksimum 600px -->
+                        <source srcset="images/sliderv2.png" media="(max-width: 576px)">
+                        <img src="images/Berita/pembukaanPorseni.JPG" alt="Deskripsi gambar">
+                    </picture>
+                </div>
+                <div class="slider-item-content">
+                    <h2>Pembukaan Porseni III 2022</h2>
+                    <p>Ayo ramaikan porseni ini dengan semangat juang yang tiada henti!</p>
+                    <button type="button" class="btn btn-success btn-utama"><a target="_blank"
+                            href="https://www.instagram.com/smktarbiyatulhuda/">Yuk
+                            Gabung!</a></button>
+                </div>
+            </div> <!-- akhir slider 2 -->
+            <div class="slider-item"> <!-- slider 3 -->
+                <div class="slider-item-img">
+                    <picture>
+                        <!-- Media query untuk layar dengan lebar maksimum 600px -->
+                        <source srcset="images/sliderv3.png" media="(max-width: 576px)">
+                        <img src="images/Prestasi/uje.jpeg" alt="Deskripsi gambar">
+                    </picture>
+                </div>
+                <div class="slider-item-content">
+                    <h2>Siswa-siswi Terbaik dan Berprestasi SMK Tarhud!</h2>
+                    <p>Setiap langkah kecil yang kamu lakukan adalah sebuah pencapaian. Jadilah yang terbaik dalam
+                        segala hal yang kamu lakukan.
+                    </p>
+                    <button type="button" class="btn btn-success btn-utama"><a target="_blank"
+                            href="https://www.instagram.com/scout_offical0?igsh=MTU5aGtzemp0Zjk5Mg==">Yuk
+                            Gabung!</a></button>
+                </div>
+            </div> <!-- akhir slider 3 -->
+        </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Hero -->
+
+    <!-- Bagian Profil -->
+    <section id="profil">
+        <div class="container profil">
+            <h2>Profil SMK Tarbiyatul Huda</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="video-wrapper">
+                        <video controls>
+                            <source src="images/WhatsApp Video 2024-05-11 at 10.48.28 (1).mp4" type="video/mp4">
+                            Browsermu tidak mendukung video ini upgrade donk!
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <h3>Sambutan Kepala Sekolah</h3>
+                    <p>Assalamu'alaikum Warahmatullahi Wabarakatuh,
+
+                        Saya ucapkan Selamat Datang di Official Website resmi SMK Tarbiyatul Huda.
+
+                        Seraya memanjatkan puji syukur kehadirat Allah SWT yang telah memberikan karunia
+                        dan kenikmatan yang tak terhitung banyaknya, tidak lupa shalawat serta salam ditujukan kepada
+                        Nabi Muhammad SAW yang membawa dienul Islam sehingga kita bisa
+                        merasakan mana yang hak dan mana yang bathil. Disertai perasaan bangga saya menuliskan kata
+                        sambutan ini, dalam rangka penerbitan Website sekolah edisi perdana. Di era global dan pesatnya
+                        Teknologi Informasi dan Komunikasi ini, tidak dipungkiri bahwa keberadaan sebuah website
+                        sangatlah penting bagi suatu organisasi, termasuk SMK Tarbiyatul Huda. Media website dapat
+                        digunakan sebagai media penyebarluasan informasi-informasi dari sekolah, yang memang harus
+                        diketahui oleh pihak-pihak SMK Tarhud secara luas. Disamping itu, website juga dapat menjadi
+                        sarana promosi sekolah yang efektif dan efisien. Berbagai kegiatan positif sekolah dapat
+                        diunggah, disertai gambar-gambar yang relevan, sehingga masyarakat dapat mengetahui
+                        prestasi-prestasi yang telah berhasil diraih oleh siswa-siswi SMK Tarbiyatul Huda...</p>
+                    <a id="maaf" href="#" class="btn btn-success tombol-more">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Profil -->
+
+    <!-- Bagian Prestasi -->
+    <section id="prestasi">
+        <div class="container">
+            <div class="section-title">
+                <h2>Prestasi Terbaru</h2>
+            </div>
+            <div id="pramuka" class="section-item"> <!-- prestasi 1 -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Prestasi/Saka Series.jpeg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-item-title">
+                            <h3>Juara Lomba Masak Rimba</h3>
+                            <div class="section-item-meta">
+                                <span><i class="bi bi-calendar4-event"></i>17 November - 21 November 2023</span>
+                                <span><i class="bi bi-geo-alt-fill"></i>Jati Nanger, Sumedang</span>
+                            </div>
+                        </div>
+                        <div class="section-item-body">
+                            <p>Saka Series adalah salah satu rangkaian kegiatan Perkemahan Antar Satuan Karya (Peran
+                                Saka) Daerah.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- akhir prestasi 1 -->
+            <div id="futsal" class="section-item"> <!-- prestasi 2 -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Prestasi/futsal.jpeg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-item-title">
+                            <h3>Juara 1 Lomba Futsal di Sekolah Galileo</h3>
+                            <div class="section-item-meta">
+                                <span><i class="bi bi-calendar4-event"></i>21 Desember 2023</span>
+                                <span><i class="bi bi-geo-alt-fill"></i>Galileo, Sentul</span>
+                            </div>
+                        </div>
+                        <div class="section-item-body">
+                            <p>SMK Tarbiyatul Huda menjadi juara 1 di Turnament Futsal yang di adakan di Sekolah
+                                Galileo, Sentul.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- akhir prestasi 2 -->
+            <div id="paskibra" class="section-item"> <!-- prestasi 3 -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/Prestasi/paskibra1.jpeg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-item-title">
+                            <h3>Juara di LPBB the Colonel Season 2</h3>
+                            <div class="section-item-meta">
+                                <span><i class="bi bi-calendar4-event"></i>02 Maret 2024</span>
+                                <span><i class="bi bi-geo-alt-fill"></i>SMK Parmako Medika Plus, Cimande</span>
+                            </div>
+                        </div>
+                        <div class="section-item-body">
+                            <p>Pasmada mengikuti lomba tingkat kecamatan yang di adakan di SMK Parmako Medika Plus dan
+                                meraih juara</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- akhir prestasi 3 -->
+
+            <button id="maaf" class="tombol-more btn btn-outline-success" type="button">Lihat Prestasi Lainnya</button>
+        </div>
+    </section>
+    <!-- Bagian Akhir Prestasi -->
+
+    <!-- Bagian Tenaga Pendidik -->
+    <section id="tenaga-pendidik">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tenaga Pendidik</h2>
+            </div>
+            <div class="slider-pendidik" id="slider-tools-1"></div>
+            <div class="owl-carousel" id="tenaga-pendidik-slider">
+                <div class="section-item-slider"> <!-- pendidik 1 -->
+                    <img src="images/Bu Jule.jpeg" alt="pendidik1">
+                    <div class="section-item-caption">
+                        <h5>Julaeha, S.Pd</h5>
+                        <h6>Guru Bahasa Indonesia</h6>
+                    </div>
+                </div> <!-- akhir pendidik 1 -->
+                <div class="section-item-slider"> <!-- pendidik 2 -->
+                    <img src="images/Pak Ahmad.jpeg" alt="pendidik2">
+                    <div class="section-item-caption">
+                        <h5>Ahmad Yani </h5>
+                        <h6>Guru PJOK</h6>
+                    </div>
+                </div> <!-- akhir pendidik 2 -->
+                <div class="section-item-slider"> <!-- pendidik 3 -->
+                    <img src="images/Pak Doni.jpeg" alt="pendidik3">
+                    <div class="section-item-caption">
+                        <h5>M. Dede Romdoni, S.Pd.I</h5>
+                        <h6>Guru Bahasa Inggris</h6>
+                    </div>
+                </div> <!-- akhir pendidik 3 -->
+                <div class="section-item-slider"> <!-- pendidik 4 -->
+                    <img src="images/Pak Sunardi.jpeg" alt="pendidik4">
+                    <div class="section-item-caption">
+                        <h5>Sunardi, S.Pd.I </h5>
+                        <h6>Guru PAI</h6>
+                    </div>
+                </div> <!-- akhir pendidik 4 -->
+                <div class="section-item-slider"> <!-- pendidik 5 -->
+                    <img src="images/Bu Nina.jpeg" alt="pendidik5">
+                    <div class="section-item-caption">
+                        <h5>Nina Mariyanah, S.Pd.I </h5>
+                        <h6>Guru Seni Budaya</h6>
+                    </div>
+                </div> <!-- akhir pendidik 5 -->
+                <div class="section-item-slider"> <!-- pendidik 6 -->
+                    <img src="images/Kak Iwan.jpeg" alt="pendidik6">
+                    <div class="section-item-caption">
+                        <h5>Muhamad Ridwan, S.Pd</h5>
+                        <h6>Guru TLJ</h6>
+                    </div>
+                </div> <!-- akhir pendidik 6 -->
+                <div class="section-item-slider"> <!-- pendidik 7 -->
+                    <img src="images/kak mustakim.jpeg" alt="pendidik7">
+                    <div class="section-item-caption">
+                        <h5>Mustakim</h5>
+                        <h6>Guru TJBL</h6>
+                    </div>
+                </div> <!-- akhir pendidik 7 -->
+                <div class="section-item-slider"> <!-- pendidik 8 -->
+                    <img src="images/kak marup.jpeg" alt="pendidik8">
+                    <div class="section-item-caption">
+                        <h5>M. Ma'rup Karyadi, S.Pd,</h5>
+                        <h6>Guru TIK</h6>
+                    </div>
+                </div> <!-- akhir pendidik 8 -->
+                <div class="section-item-slider"> <!-- pendidik 9 -->
+                    <img src="images/pak hamdan.jpeg" alt="pendidik9">
+                    <div class="section-item-caption">
+                        <h5>M.Aba Yusuf Alhamdani, S.pd</h5>
+                        <h6>Guru Bahasa Arab</h6>
+                    </div>
+                </div> <!-- akhir pendidik 9 -->
+                <div class="section-item-slider"> <!-- pendidik 10 -->
+                    <img src="images/kak azis.jpeg" alt="pendidik10">
+                    <div class="section-item-caption">
+                        <h5>Abdul Azis</h5>
+                        <h6>Guru PKN</h6>
+                    </div>
+                </div> <!-- akhir pendidik 10 -->
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Tenaga Pendidik -->
+
+    <!-- Bagian Alumni -->
+    <section id="alumni">
+        <div class="container">
+            <div class="section-title">
+                <h2>Profil Alumni</h2>
+            </div>
+            <div class="section-body">
+                <div id="slider-tools-2"></div>
+                <div class="owl-carousel" id="alumni-slider">
+                    <div class="section-item-slider"> <!-- Alumni 1 -->
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="images/pendidik1.JPG" alt="alumni">
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="section-item-content">
+                                    <i class="bi bi-chat-square-heart-fill i"></i>
+                                    <h3>Ujang Miftahudin</h3>
+                                    <p>"aku selalu datang terlambat ke sekolah tetapi aku menebusnya dengan pulang lebih
+                                        awal"</p>
+                                    <a href="https://www.instagram.com/saha.uj4ng/" target="_blank"
+                                        class="btn btn-icon-utama">Selengkapnya<i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Alumni 1 -->
+                    <div class="section-item-slider"> <!-- Alumni 2 -->
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="images/pendidik2.JPG" alt="alumni">
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="section-item-content">
+                                    <i class="bi bi-currency-bitcoin i"></i>
+                                    <h3>Bagas Saputra</h3>
+                                    <p>"Janganlah belajar menyalahkan orang lain tapi belajarlah dari buku
+                                        pelajaran".</p>
+                                    <a href="https://www.instagram.com/bagasaputra666/" target="_blank"
+                                        class="btn btn-icon-utama">Selengkapnya<i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Alumni 2 -->
+                    <div class="section-item-slider"> <!-- Alumni 3 -->
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="images/pendidik3.JPG" alt="alumni">
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="section-item-content">
+                                    <i class="bi bi-book-half i"></i>
+                                    <h3>Ahmad Maulana</h3>
+                                    <p>"Di mana ada kesempatan, di situ ada dana umum"</p>
+                                    <a id="maaf" href="#" class="btn btn-icon-utama">Selengkapnya<i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Alumni 3 -->
+                    <div class="section-item-slider"> <!-- Alumni 4 -->
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="images/pendidik4.jpeg" alt="alumni">
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="section-item-content">
+                                    <i class="bi bi-chat-square-quote-fill i"></i>
+                                    <h3>Surya Hadinata</h3>
+                                    <p>"belajarlah setinggi mungkin hingga cacian dan hinaan berubah jadi penganiayaan."
+                                    </p> <a href="https://www.instagram.com/shadifttt/" target="_blank"
+                                        class="btn btn-icon-utama">Selengkapnya<i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Alumni 4 -->
+                    <div class="section-item-slider"> <!-- Alumni 5 -->
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="images/pendidik5.JPG" alt="alumni">
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="section-item-content">
+                                    <i class="bi bi-book-half i"></i>
+                                    <h3>Farhan Salim</h3>
+                                    <p>"orang yang berakal adalah yang lebih senang dengan sesuatu yang
+                                        kekal daripada sesuatu yang fana"</p>
+                                    <a id="maaf" href="#" class="btn btn-icon-utama">Selengkapnya<i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Alumni 5 -->
+                    <div class="section-item-slider"> <!-- Alumni 6 -->
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="images/pendidik6.JPG" alt="alumni">
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="section-item-content">
+                                    <i class="bi bi-brilliance i"></i>
+                                    <h3>Azis</h3>
+                                    <p>"kesopanan lebih dihargai daripada umur sebab etika itu ditata bahasa bukan
+                                        ditata usia"</p>
+                                    <a id="maaf" href="#" class="btn btn-icon-utama">Selengkapnya<i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Alumni 6 -->
+                    <div class="section-item-slider"> <!-- Alumni 7 -->
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="images/pendidik7.JPG" alt="alumni">
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="section-item-content">
+                                    <i class="bi bi-book-half i"></i>
+                                    <h3>Dedi Agustian</h3>
+                                    <p>"ramadhan boyah, baju baru skin baru, puasa makin seru. Ore wa maou-sama"
+                                    </p>
+                                    <a id="maaf" href="#" class="btn btn-icon-utama">Selengkapnya<i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Alumni 7 -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Alumni -->
+
+    <!-- Bagian galeri -->
+    <section id="galeri">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeri / Dokumentasi</h2>
+            </div>
+            <div class="slider-galeri" id="slider-tools-3"></div>
+            <div class="owl-carousel" id="galeri-slider">
+                <div class="section-item-slider"> <!-- galeri 1 -->
+                    <img src="images/galeri1.jpg" alt="galeri1">
+                    <div class="section-item-caption">
+                        <h5>Pentas Drama - Porseni III</h5>
+                        <h6>Drama Bandung Lautan Api</h6>
+                    </div>
+                </div> <!-- akhir galeri 1 -->
+                <div class="section-item-slider"> <!-- galeri 2 -->
+                    <img src="images/galeri2.jpg" alt="galeri2">
+                    <div class="section-item-caption">
+                        <h5>Pentas Drama - Porseni III</h5>
+                        <h6>Adegan Perang Dalam Drama</h6>
+                    </div>
+                </div> <!-- akhir galeri 2 -->
+                <div class="section-item-slider"> <!-- galeri 3 -->
+                    <img src="images/galeri3.jpg" alt="galeri3">
+                    <div class="section-item-caption">
+                        <h5>Pentas Drama - Porseni III</h5>
+                        <h6>Ending Dalam Drama</h6>
+                    </div>
+                </div> <!-- akhir galeri 3 -->
+                <div class="section-item-slider"> <!-- galeri 4 -->
+                    <img src="images/galeri4.jpg" alt="galeri4">
+                    <div class="section-item-caption">
+                        <h5>LDKS Osis 2023 - 2024</h5>
+                        <h6>Puncak Halimun, Bogor</h6>
+                    </div>
+                </div> <!-- akhir galeri 4 -->
+                <div class="section-item-slider"> <!-- galeri 5 -->
+                    <img src="images/galeri5.jpg" alt="galeri5">
+                    <div class="section-item-caption">
+                        <h5>Outbound LDKS Osis</h5>
+                        <h6>Puncak Halimun, Bogor</h6>
+                    </div>
+                </div> <!-- akhir galeri 5 -->
+                <div class="section-item-slider"> <!-- galeri 6 -->
+                    <img src="images/galeri6.jpg" alt="galeri6">
+                    <div class="section-item-caption">
+                        <h5>Outbound LDKS Osis</h5>
+                        <h6>Puncak Halimun, Bogor</h6>
+                    </div>
+                </div> <!-- akhir galeri 6 -->
+                <div class="section-item-slider"> <!-- galeri 7 -->
+                    <img src="images/galeri7.jpeg" alt="galeri7">
+                    <div class="section-item-caption">
+                        <h5>Workshop IKM</h5>
+                        <h6>Implementasi Kurikulum</h6>
+                    </div>
+                </div> <!-- akhir galeri 7 -->
+                <div class="section-item-slider"> <!-- galeri 8 -->
+                    <img src="images/galeri8.jpeg" alt="galeri8">
+                    <div class="section-item-caption">
+                        <h5>Workshop IKM</h5>
+                        <h6>Implementasi Kurikulum</h6>
+                    </div>
+                </div> <!-- akhir galeri 8 -->
+                <div class="section-item-slider"> <!-- galeri 9 -->
+                    <img src="images/galeri9.jpeg" alt="galeri9">
+                    <div class="section-item-caption">
+                        <h5>Workshop IKM</h5>
+                        <h6>Implementasi Kurikulum</h6>
+                    </div>
+                </div> <!-- akhir galeri 9 -->
+                <div id="galeriPaskibra" class="section-item-slider"> <!-- galeri 10 -->
+                    <img src="images/galeri10.jpeg" alt="galeri10">
+                    <div class="section-item-caption">
+                        <h5>Paskibra - Porseni III</h5>
+                        <h6>Penampilan Paskibra SMP</h6>
+                    </div>
+                </div> <!-- akhir galeri 10 -->
+                <div id="galeriPramuka" class="section-item-slider"> <!-- galeri 11 -->
+                    <img src="images/galeri11.jpeg" alt="galeri11">
+                    <div class="section-item-caption">
+                        <h5>Pramuka - Porseni III</h5>
+                        <h6>Foto Paskibra SMP</h6>
+                    </div>
+                </div> <!-- akhir galeri 11 -->
+                <div class="section-item-slider"> <!-- galeri 12 -->
+                    <img src="images/galeri12.jpeg" alt="galeri12">
+                    <div class="section-item-caption">
+                        <h5>Pemeran - Drama Porseni III</h5>
+                        <h6>Foto Bersama Pemeran Drama</h6>
+                    </div>
+                </div> <!-- akhir galeri 12 -->
+            </div>
+            <div class="button-selengkapnya">
+                <button id="maaf" class="tombol-more btn" type="button">Lihat Galeri Lainnya</button>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Galeri -->
+
+    <!-- Bagian Ekstrakulikuler -->
+    <section id="ekstrakulikuler">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ekstrakulikuler</h2>
+            </div>
+            <div class="section-body">
+                <div class="row">
+                    <div class="col-md-4"> <!-- Paskibra -->
+                        <div id="eksPaskibra" class="section-body-item">
+                            <div class="section-item-thumbnail">
+                                <img src="images/Berita/0paskibra.JPG" alt="paskibra">
+                            </div>
+                            <div class="section-item-content">
+                                <i class="bi bi-flag-fill"></i>
+                                <h3>Paskibra</h3>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Paskibra -->
+                    <div class="col-md-4"> <!-- Drumband -->
+                        <div id="eksDrumband" class="section-body-item">
+                            <div class="section-item-thumbnail">
+                                <img src="images/Berita/0drumb.JPG" alt="Drumband">
+                            </div>
+                            <div class="section-item-content">
+                                <i class="bi bi-music-note-list"></i>
+                                <h3>Drumband</h3>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Drumband -->
+                    <div class="col-md-4"> <!-- Pramuka -->
+                        <div id="eksPramuka" class="section-body-item">
+                            <div class="section-item-thumbnail">
+                                <img src="images/Berita/0pramuka.jpeg" alt="Pramuka">
+                            </div>
+                            <div class="section-item-content">
+                                <i class="bi bi-fire"></i>
+                                <h3>Pramuka</h3>
+                            </div>
+                        </div>
+                    </div> <!-- Akhir Pramuka -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Ekstrakulikuler -->
+
+    <!-- Bagian Berita -->
+    <section id="berita">
+        <div class="container">
+            <div class="section-title">
+                <h2>Berita Terbaru</h2>
+            </div>
+            <div class="section-body">
+                <div class="row"> <!-- Berita 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="section-item-thumbnail">
+                            <div class="section-thumbnail">
+                                <img src="images/Prestasi1.jpg" alt="Upacara">
+                                <div class="tanggal">
+                                    <span>17</span>
+                                    <span>Agustus, 2023</span>
+                                </div>
+                            </div>
+                            <div class="section-content">
+                                <h3>Foto Bersama Pasukan Upacara</h3>
+                                <p>Kelas 12 dipilih menjadi pasukan upacara dalam rangka memperingati Hari Kemerdekaan
+                                    Indonesia pada 17 Agustus 2023</p>
+                            </div>
+                            <div class="button-info">
+                                <a target="_blank" href="https://www.instagram.com/info_tarhud/">Kegiatan</a>
+                                <a target="_blank" href="https://www.instagram.com/info_tarhud/"><i
+                                        class="bi bi-person"></i>Admin</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="section-item-thumbnail">
+                            <div class="section-thumbnail">
+                                <img src="images/Prestasi/Ujetod.jpeg" alt="Upacara">
+                                <div class="tanggal">
+                                    <span>17</span>
+                                    <span>November, 2023</span>
+                                </div>
+                            </div>
+                            <div class="section-content">
+                                <h3>Mengikuti Acara Tingkat Daerah</h3>
+                                <p>Salah satu siswa yang terpilih menjadi peserta dari acara Peransaka Jawa Barat 2023
+                                    yang dilaksanakan di Jatinangor, Sumedang.</p>
+                            </div>
+                            <div class="button-info">
+                                <a target="_blank" href="https://www.instagram.com/saha.uj4ng/">Kegiatan</a>
+                                <a target="_blank" href="https://www.instagram.com/saha.uj4ng/">Pramuka</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="section-item-thumbnail">
+                            <div class="section-thumbnail">
+                                <img src="images/Berita/dramakolosal.jpg" alt="Upacara">
+                                <div class="tanggal">
+                                    <span>28</span>
+                                    <span>Agustus, 2022</span>
+                                </div>
+                            </div>
+                            <div class="section-content">
+                                <h3>Persembahan Drama Kolosal</h3>
+                                <p>Drama Kolosal Bandung Lautan Api yang dipersembahkan oleh kelas 12 dalam rangka
+                                    memeriahkan Porseni III 2022</p>
+                            </div>
+                            <div class="button-info">
+                                <a target="_blank" href="https://www.instagram.com/shadifttt/">Porseni</a>
+                                <a target="_blank" href="https://www.instagram.com/shadifttt/">Drama</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="section-item-thumbnail">
+                            <div class="section-thumbnail">
+                                <img src="images/Berita/pasmada.JPG" alt="Upacara">
+                                <div class="tanggal">
+                                    <span>28</span>
+                                    <span>Agustus, 2022</span>
+                                </div>
+                            </div>
+                            <div class="section-content">
+                                <h3>Penampilan Pasmada </h3>
+                                <p>Pasmada adalah singkatan dari Pasukan SMK Tarbiyatul Huda dimana mereka
+                                    mempersembahkan keindahan gerakan Baris-Berbaris</p>
+                            </div>
+                            <div class="button-info">
+                                <a target="_blank" href="https://www.instagram.com/info_tarhud/">Kegiatan</a>
+                                <a target="_blank" href="https://www.instagram.com/info_tarhud/"><i
+                                        class="bi bi-person"></i>Admin</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="section-item-thumbnail">
+                            <div class="section-thumbnail">
+                                <img src="images/Berita/upacara.JPG" alt="Upacara">
+                                <div class="tanggal">
+                                    <span>28</span>
+                                    <span>Agustus, 2022</span>
+                                </div>
+                            </div>
+                            <div class="section-content">
+                                <h3>Pelaksaan Upacara - Porseni III</h3>
+                                <p>Pembukaan Porseni III di buka dengan Upacara yang di laksanakan di lapangan utama SMK
+                                    Tarbiyatul Huda oleh pasukan upacara kelas 12</p>
+                            </div>
+                            <div class="button-info">
+                                <a target="_blank" href="https://www.instagram.com/info_tarhud/">Kegiatan</a>
+                                <a target="_blank" href="https://www.instagram.com/info_tarhud/"><i
+                                        class="bi bi-person"></i>Admin</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="section-item-thumbnail">
+                            <div class="section-thumbnail">
+                                <img src="images/Berita/Perang.JPG" alt="Adegan Perang">
+                                <div class="tanggal">
+                                    <span>28</span>
+                                    <span>Agustus, 2022</span>
+                                </div>
+                            </div>
+                            <div class="section-content">
+                                <h3>Adegan Perang - Porseni III</h3>
+                                <p>Moment perang dalam Drama Kolosal Bandung Lautan Api yang dipersembahkan SMK
+                                    Tarbiyatul Huda untuk memeriahkan Porseni III</p>
+                            </div>
+                            <div class="button-info">
+                                <a target="_blank" href="https://www.instagram.com/info_tarhud/">Kegiatan</a>
+                                <a target="_blank" href="https://www.instagram.com/info_tarhud/"><i
+                                        class="bi bi-person"></i>Admin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Akhir Berita 2 -->
+            </div>
+
+            <button id="maaf" class="tombol-more btn btn-outline-success" type="button">Lihat Berita Lainnya</button>
+        </div>
+    </section>
+    <!-- Bagian Akhir Berita -->
+
+    <!-- Bagian Kontak -->
+    <!-- Bagian Akhir Kontak -->
+
+    <!-- Icon Music -->
+    <div id="audio-container">
+        <audio id="song" loop>
+            <source src="audio/WhatsApp Audio 2024-05-19 at 02.21.22.mp3" type="audio/mp3">
+        </audio>
+
+        <div class="icon-music-wrapper">
+            <i class="bi bi-music-note-beamed"></i>
+        </div>
+        <!-- Akhir Icon Music -->
+
+        <!-- Bagian Footer -->
+        <footer id="kontak">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="footer-col">
+                            <div class="brand">
+                                <img src="images/Logo.png" alt="Logo">
+                                <h1>SMK Tarbiyatul Huda</h1>
+                            </div>
+                            <p class="tentang">
+                                SMK Tarbiyatul Huda Cikereteg terletak di kaki gunung pangrango arah selatan Kota Bogor
+                                (Sekitar 7 KM dari Perempatan Ciawi ke Arah Sukabumi), berbatasan langsung dengan
+                                Kabupaten
+                                Sukabumi. Lokasi SMK sangat kondusif untuk belajar para Siswa/siswi karena jauh dari
+                                polusi
+                                dan hiruk pikuk keramaian..
+                            </p>
+                            <ul class="sosmed-info">
+                                <li><a id="maaf" href="#"><i class="bi bi-youtube"></i></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/info_tarhud/"><i
+                                            class="bi bi-instagram"></i></a>
+                                </li>
+                                <li><a id="maaf" href="#"><i class="bi bi-tiktok"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-col">
+                            <div class="brand">
+                                <h2>Kontak Kami</h2>
+                            </div>
+                            <p class="tentag-kontak">
+                                Jl. Veteran 1, Pancawati, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730
+                            </p>
+                            <ul class="kontak">
+                                <li><a target="_blank"
+                                        href="https://api.whatsapp.com/send/?phone=6285776185053&text&type=phone_number&app_absent=0"><i
+                                            class="bi bi-telephone"></i>Telp/Fax: +62
+                                        857-7618-5053</a>
+                                </li>
+                                <li><a target="_blank"
+                                        href="https://api.whatsapp.com/send/?phone=6285776185053&text&type=phone_number&app_absent=0"><i
+                                            class="bi bi-whatsapp"></i>Kontak WA: +62
+                                        857-7618-5053</a>
+                                </li>
+                                <li><a target="_blank" href="https://www.instagram.com/info_tarhud/"><i
+                                            class="bi bi-envelope"></i>Email: smktarhud@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-col">
+                            <div class="brand">
+                                <h2>Navigasi<h1>
+                            </div>
+                            <ul class="navigasi">
+                                <li><a id="maaf" href="#">Profil/Sejarah</a></li>
+                                <li><a id="maaf" href="#">Visi dan Misi</a></li>
+                                <li><a id="maaf" href="#">Sturktur Organisasi</a></li>
+                                <li><a id="maaf" href="#">Sumber Daya Manusia</a></li>
+                                <li><a id="maaf" href="#">Pendaftaran PDB 2024-2025</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <h6>Hak Cipta Dilindungi - <a target="_blank" href="https://www.instagram.com/bagasaputra666/">Bagas
+                        Saputra</a> FT. <a target="_blank" href="https://www.instagram.com/shadifttt/">Surya
+                        Hadinata</a> & <a target="_blank" href="https://www.instagram.com/saha.uj4ng/">Ujang
+                        Miftahudin</a>
+                    &#169 2024
+                </h6>
+            </div>
+        </footer>
+        <!-- Bagian Akhir Footer -->
+
+
+
+
+
+
+
+
+        <!-- Jquery JS -->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- OwlCarousel JS -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- My JS -->
+        <script src="script.js"></script>
+</body>
+
+</html>
